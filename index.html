@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styl.css" />
+    <link rel="stylesheet" href="/assets/stylesheet/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,7 +21,7 @@
   </head>
   <body id="top">
     <header>
-      <img class="background" src="./assets/media/banner.jpeg" alt="beach" />
+     <img class="background" src="./assets/media/banner.jpeg" alt="beach" />
       <div class="icons">
         <a class="circle" href="#"><i class="fab fa-facebook-f"></i></a>
         <a class="circle" href="#"><i class="fab fa-twitter"></i></a>
@@ -30,22 +30,22 @@
       </div>
       <div class="header">
         <div class="logo">
-          <img src="./assets/media/logo.png" alt="logo" />
-          <span>FLEX</span>
+          <a href="#"><img src="./assets/media/logo.png" alt="logo" /></a>
+          <strong>FLEX</strong>
         </div>
-        <div class="nav-bar">
+        <nav class="nav-bar">
           <div class="menu">
-            <a class="home" href="#">HOME</a>
-            <a href="#">SERVICES</a>
-            <a href="#">PORTFOLIO</a>
-            <a href="#">TEAM</a>
+            <a class="orange" href="#">HOME</a>
+            <a href="#services">SERVICES</a>
+            <a href="#portfolio">PORTFOLIO</a>
+            <a href="#team">TEAM</a>
             <a href="gallery.html">GALLERY</a>
-            <a href="#">CONTACT</a>
+            <a href="#contact">CONTACT</a>
           </div>
-        </div>
+        </nav>
       </div>
-      <div class="box-1">
-        <h2>DIGITAL MARKETING</h2>
+      <div class="home">
+        <h1>DIGITAL MARKETING</h1>
         <hr />
         <p>MORE VISITORS TO YOUR WEBSITE</p>
         <button class="btn btn-1">LET US DESIGN!</button>
@@ -57,26 +57,26 @@
       <div class="dot-3"></div>
     </div>
     <main>
-      <div class="services container">
+      <section class="services container" id="services">
         <h3>OUR SERVICES</h3>
         <hr />
         <h4>WE DESIGN MOBILE-FIRST WEBSITES OR YOU</h4>
-        <div class="flex">
-          <div class="box-2 box-2-1">
+        <div class=" flex">
+          <div class="service-icon service-icon-1">
             <a href="#"><i class="far fa-file-code"></i></a>
           </div>
-          <div class="box-2 box-2-2">
+          <div class="service-icon service-icon-2">
             <a href="#"><i class="fab fa-telegram-plane"></i></a>
           </div>
-          <div class="box-2 box-2-3">
+          <div class="service-icon service-icon-3">
             <a href="#"><i class="fas fa-landmark"></i></a>
           </div>
-          <div class="box-2 box-2-4">
+          <div class="service-icon service-icon-4">
             <a href="#"><i class="fas fa-flask"></i></a>
           </div>
         </div>
-      </div>
-      <div class="portfolio container">
+      </section>
+      <section class="portfolio container" id="portfolio">
         <h3>OUR PORTFOLIO</h3>
         <hr />
         <h4>AMAZING WORK FOR OUR CLIENTS</h4>
@@ -90,25 +90,25 @@
           <img src="./assets/media/portfolio/p5.jpeg" alt="p7" />
           <img src="./assets/media/portfolio/p6.jpeg" alt="p8" />
         </div>
-      </div>
-      <div class="team container">
+      </section>
+      <section class="team container" id="team">
         <h3>OUR TEAM</h3>
         <hr />
         <h4>OUR PEOPLE ARE VERY UNITED FOR YOUR SUCCESS</h4>
-        <div class="box-4 flex">
+        <div class="members flex">
           <img src="./assets/media/member1.jpeg" alt="member1" />
           <img src="./assets/media/member2.jpeg" alt="member2" />
           <img src="./assets/media/member3.jpeg" alt="member3" />
           <img src="./assets/media/member4.jpeg" alt="member4" />
         </div>
-      </div>
-      <div class="skills container">
+      </section>
+      <section class="skills container" id="skills">
         <h3 class="italic">DESIGN SKILLS</h3>
         <h4 class="italic">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </h4>
-        <div class="box-5 flex">
-          <div class="box-5-1">
+        <div class="design-skills flex">
+          <div class="design-skills-text">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
               cupiditate nostrum non maiores saepe repudiandae dignissimos
@@ -116,8 +116,9 @@
               quisquam officiis, quos eaque veritatis at optio voluptatibus,
               perferendis aperiam voluptates. Incidunt tempore tempora
               veritatis, nesciunt possimus, repudiandae, inventore omnis culpa
-              pariatur illum voluptates doloribus. <br />
-              <br />
+              pariatur illum voluptates doloribus. 
+            </p>
+            </p>
               Please visit <span class="orange">Too CSS</span> to see
               collectionf free HTML and CSS templates for your website In
               distinctio tempore possimus at placeat soluta incidunt nobis, ipsa
@@ -125,29 +126,29 @@
               Consequuntur sunt asperiores vero ratione?
             </p>
           </div>
-          <div class="box-5-2">
+          <div class="skills-bar-chart">
             <div class="bar">
-              <span class="bar-1">Photoshop 90%</span>
+              <span class="PHOTOSHOP-bar">PHOTOSHOP 90%</span>
             </div>
             <div class="bar">
-              <span class="bar-2">HTML CSS 80%</span>
+              <span class="HTML-CSS-bar">HTML CSS 80%</span>
             </div>
             <div class="bar">
-              <span class="bar-3">DEVLOPMENT 70%</span>
+              <span class="DEVLOPMENT-bar">DEVLOPMENT 70%</span>
             </div>
             <div class="bar">
-              <span class="bar-4"> MARKETIN 80%</span>
+              <span class="MARKETING-bar"> MARKETING 80%</span>
             </div>
           </div>
         </div>
-      </div>
-      <div class="contact container">
+      </section>
+      <section class="contact container" id="contact">
         <h3>CONTACT</h3>
         <hr />
         <h4>SEND A MESSAGE TO US</h4>
-        <img class="map" src="./assets/media/map.png" alt="" />
-        <div class="box-6 flex">
-          <div class="box-6-1">
+        <img class="map" src="./assets/media/map.png" alt="map" />
+        <div class="flex">
+          <article class="contact-text">
             <p>
               Flex Template is based on Bootstrap v3.1.1 and it is provided by
               <span id="blue">template</span> <span id="green">mo</span> for
@@ -166,13 +167,13 @@
               vero. Provident nobis autem ullam mollitia repudiandae ipsum animi
               itaque?
             </p>
-            <p>
+            <address>
               Phone: 033-033-0660 <br />
               Email: <span class="orange">info@company.com</span> <br />
               Address: 880 De Best Studio Fork Street, San Francisco
-            </p>
-          </div>
-          <div class="box-6-2">
+            </address>     
+          </article>
+          <div class="details">
             <div class="name"><span>Your Name</span></div>
             <div class="email"><span>Your Email</span></div>
             <div class="subject"><span>Subject</span></div>
@@ -180,10 +181,10 @@
             <button class="btn btn-2">SEND MESSAGE</button>
           </div>
         </div>
-      </div>
+      </section>
     </main>
     <footer class="footer container flex">
-      <p>Copyright &copy; 2020 Company Name . Design: TemplateMo</p>
+      <small>Copyright &copy; 2020 Company Name . Design: TemplateMo</small>
       <a class="back-to-top" href="#top"> Back To Top</a>
     </footer>
   </body>

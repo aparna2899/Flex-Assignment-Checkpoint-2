@@ -135,10 +135,9 @@ body {
   max-width: 100%;
   filter: brightness(50%);
 }
-
 .icons {
   position: absolute;
-  top: 50px;
+  top: 5%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -155,19 +154,19 @@ body {
   margin: 0 5px;
 }
 .header {
-  background-color: white;
-  display: flex;
-  justify-content: space-between;
   position: absolute;
   top: 120px;
   left: 10%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
   width: 80%;
 }
 
 .logo img {
   vertical-align: middle;
 }
-.logo span {
+.logo strong {
   font-size: 32px;
   font-weight: 700;
   color: #ea513d;
@@ -184,24 +183,24 @@ body {
   font-weight: 600;
   padding: 0 15px;
 }
-.menu .home {
+.menu .orange {
   color: #ea513d;
 }
-.box-1 {
+.home {
   position: absolute;
   top: 380px;
   width: 100%;
 }
-.box-1 h2 {
+.home h1 {
   text-align: center;
   font-size: 40px;
   font-weight: bold;
   color: white;
 }
-.box-1 hr {
+.home hr {
   width: 30%;
 }
-.box-1 p {
+.home p {
   text-align: center;
   color: white;
   padding: 15px 0;
@@ -260,26 +259,26 @@ h3 {
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.box-2 {
+.service-icon {
   width: 260px;
   height: 280px;
 }
 .services hr {
   width: 17%;
 }
-.box-2-1 {
+.service-icon-1 {
   background-color: #5bbd9d;
 }
-.box-2-2 {
+.service-icon-2 {
   background-color: #e57f30;
 }
-.box-2-3 {
+.service-icon-3 {
   background-color: #3898da;
 }
-.box-2-4 {
+.service-icon-4 {
   background-color: #68cd72;
 }
-.box-2 a {
+.service-icon a {
   color: white;
   font-size: 45px;
   display: inline-block;
@@ -297,7 +296,7 @@ h3 {
 .team hr {
   width: 12%;
 }
-.box-4 img {
+.members img {
   width: 260px;
   border-radius: 50%;
   padding: 0 10px;
@@ -305,35 +304,35 @@ h3 {
 .italic {
   font-style: italic;
 }
-.box-5 {
+.design-skills {
   justify-content: space-between;
   color: gray;
 }
 .contact hr {
   width: 11%;
 }
-.box-5-1,
-.box-6-1 {
+.design-skills-text,
+.contact-text {
   width: 60%;
 }
-.box-5-2,
-.box-6-2 {
+.skills-bar-chart,
+.details {
   width: 40%;
 }
-.box-5-1 p {
+.design-skills-text p {
   text-align: left;
   padding-right: 40px;
 }
-.bar-1 {
+.PHOTOSHOP-bar {
   width: 90%;
 }
-.bar-2 {
+.HTML-CSS-bar {
   width: 80%;
 }
-.bar-3 {
+.DEVLOPMENT-bar {
   width: 70%;
 }
-.bar-4 {
+.MARKETING-bar {
   width: 80%;
 }
 .bar {
@@ -355,10 +354,10 @@ h3 {
 .orange {
   color: #ea513d;
 }
-.box-6-1 p {
+.contact-text p {
   padding-bottom: 15px;
 }
-.box-6-1 strong {
+.contact-text strong {
   font-weight: bold;
 }
 #blue {
@@ -416,15 +415,15 @@ h3 {
 .top {
   justify-content: space-between;
 }
-.logo-2 img {
+.flex-logo img {
   vertical-align: middle;
 }
-.logo-2 span {
+.top strong {
   font-size: 28px;
   font-weight: bold;
   color: white;
 }
-.top a {
+#home {
   text-decoration: none;
   color: white;
   border: 2px solid white;
@@ -441,7 +440,7 @@ h3 {
   margin: 8px 0;
   font-weight: 600;
 }
-.icons-2 {
+.social-media-icons {
   margin: 30px 0;
 }
 .circle-2 {
@@ -460,7 +459,7 @@ h3 {
   position: relative;
   left: 25%;
 }
-.gallery h2 {
+.gallery h1 {
   font-size: 40px;
   font-weight: bold;
   text-align: center;
